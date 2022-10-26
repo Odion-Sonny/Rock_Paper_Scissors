@@ -1,7 +1,9 @@
 # Rock, Paper, Scissors
 import random
 def rps():
+    
     keep_playing = True
+
     while keep_playing is True:
         player_input = input('Enter r, p, s for Rock, Paper, Scissors: ')
         possible_actions = ['r', 'p', 's']
