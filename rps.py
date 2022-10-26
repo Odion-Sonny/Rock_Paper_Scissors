@@ -15,22 +15,22 @@ def rps():
         # different inputs
 
         if player_input == computer_input:
-            print(f"Both players chose {player_input}, it's a tie")
+            print(f"Both players chose {player_input}, it's a tie :)")
         elif player_input == 'r':
             if computer_input == 's':
-                print('Rock smashes Scissors, you win')
+                print('Rock smashes Scissors, you win :)')
             else:
-                print('Paper covers Rock, computer wins')
+                print('Paper covers Rock, computer wins :(')
         elif player_input == 'p':
             if computer_input == 'r':
-                print('Paper covers Rock, you win')
+                print('Paper covers Rock, you win :)')
             else:
-                print('Scissors cuts Paper, computer wins')
+                print('Scissors cuts Paper, computer wins:(')
         elif player_input == 's':
             if computer_input == 'p':
-                print('Scissors cuts Paper, you win')
+                print('Scissors cuts Paper, you win :)')
             else:
-                print('Rock smashes Scissors, computer wins')
+                print('Rock smashes Scissors, computer wins :(')
         
         choice = input('Would you like to keep playing?:[y/n] ')
         if choice == 'y':
