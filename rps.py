@@ -5,11 +5,12 @@ def rps():
     keep_playing = True
 
     while keep_playing is True:
-        player_input = input('Enter r, p, s for Rock, Paper, Scissors: ')
+        player_input = input('Enter r, p, s for Rock, Paper or Scissors respectively: ')
         possible_actions = ['r', 'p', 's']
         computer_input = random.choice(possible_actions)
+        in_full = {'r':'Rock', 'p':'Paper', 's':'Scissors'}
+        print(f'You chose {in_full[user_input]} and the computer chose {in_full[computer_input]}')
 
-        print(f'You chose {player_input} and the computer chose {computer_input}')
 
         # same input
         # different inputs
