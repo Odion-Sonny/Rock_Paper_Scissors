@@ -11,10 +11,12 @@ def rps():
         in_full = {'r':'Rock', 'p':'Paper', 's':'Scissors'}
         print(f'You chose {in_full[user_input]} and the computer chose {in_full[computer_input]}')
 
-
-        # same input
-        # different inputs
-
+        ''' 
+        Edge cases
+          - same input
+          - different inputs
+        '''
+        
         if player_input == computer_input:
             print(f"Both players chose {player_input}, it's a tie")
         elif player_input == 'r':
